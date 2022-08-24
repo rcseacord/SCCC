@@ -1,0 +1,10 @@
+gid_t rgid, egid, sgid;
+uid_t ruid, euid, suid;
+
+/* permanently dropping privileges */
+if (setresgid(-1, getgid(), getuid()) != 0)
+  errx(1, "setresgid error");
+if (setresuid(-1, getuid(), getuid()) != 0)
+  errx(1, "setresuid error");
+
+/* opening secret_file and output_file */
