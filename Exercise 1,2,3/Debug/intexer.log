@@ -1,0 +1,28 @@
+﻿  intexer.cpp
+cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\intexer.cpp(31,12): warning C4456: declaration of 'i' hides previous local declaration
+C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\intexer.cpp(16,6): message : see declaration of 'i'
+C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\intexer.cpp(63,24): warning C4244: '=': conversion from 'int' to 'char', possible loss of data
+C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\intexer.cpp(33,1): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdlib.h(1191): message : see declaration of 'getenv'
+C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\intexer.cpp(37,1): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(338): message : see declaration of 'strncpy'
+C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\intexer.cpp(39,1): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(90): message : see declaration of 'strcat'
+C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\intexer.cpp(41,1): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(90): message : see declaration of 'strcat'
+C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\intexer.cpp(48,1): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208): message : see declaration of 'fopen'
+C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\intexer.cpp(53,1): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1197): message : see declaration of 'fscanf'
+C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\intexer.cpp(59,1): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1197): message : see declaration of 'fscanf'
+C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\intexer.cpp(60,1): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1197): message : see declaration of 'fscanf'
+  intexer.vcxproj -> C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\Debug\intexer.exe
+C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\intexer.cpp(31): warning C6246: Local declaration of 'i' hides declaration of the same name in outer scope. For additional information, see previous declaration at line '16' of 'c:\users\rseacord\documents\1 ncc training\sccc\materials\exercise 1,3,4\intexer.cpp'.
+C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\intexer.cpp(53): warning C6031: Return value ignored: 'fscanf'.
+C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\intexer.cpp(59): warning C6031: Return value ignored: 'fscanf'.
+C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\intexer.cpp(60): warning C6031: Return value ignored: 'fscanf'.
+C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\intexer.cpp(70): warning C6386: Buffer overrun while writing to 'sigdb':  the writable size is 'size*sizeof(sigrecord)' bytes, but '248' bytes might be written.
+C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\intexer.cpp(59): warning C6385: Reading invalid data from 'sigdb':  the readable size is 'size*sizeof(sigrecord)' bytes, but '248' bytes may be read.

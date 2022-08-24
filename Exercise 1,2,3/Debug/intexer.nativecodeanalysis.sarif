@@ -1,0 +1,1392 @@
+{
+  "version": "2.0.0",
+  "$schema": "http://json.schemastore.org/sarif-2.0.0",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "6246",
+          "message": {
+            "text": "Local declaration of 'i' hides declaration of the same name in outer scope. For additional information, see previous declaration at line '16' of 'c:\\users\\rseacord\\documents\\1 ncc training\\sccc\\materials\\exercise 1,3,4\\intexer.cpp'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "fileLocation": {
+                  "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                },
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 11,
+                  "endLine": 31,
+                  "endColumn": 14
+                }
+              },
+              "fullyQualifiedLogicalName": "main"
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "step": 0,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "6031",
+          "message": {
+            "text": "Return value ignored: 'fscanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "fileLocation": {
+                  "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                },
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 2,
+                  "endLine": 53,
+                  "endColumn": 20
+                }
+              },
+              "fullyQualifiedLogicalName": "main"
+            }
+          ]
+        },
+        {
+          "ruleId": "6031",
+          "message": {
+            "text": "Return value ignored: 'fscanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "fileLocation": {
+                  "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                },
+                "region": {
+                  "startLine": 59,
+                  "startColumn": 3,
+                  "endLine": 59,
+                  "endColumn": 30
+                }
+              },
+              "fullyQualifiedLogicalName": "main"
+            }
+          ]
+        },
+        {
+          "ruleId": "6031",
+          "message": {
+            "text": "Return value ignored: 'fscanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "fileLocation": {
+                  "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                },
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 3,
+                  "endLine": 60,
+                  "endColumn": 29
+                }
+              },
+              "fullyQualifiedLogicalName": "main"
+            }
+          ]
+        },
+        {
+          "ruleId": "6386",
+          "message": {
+            "text": "Buffer overrun while writing to 'sigdb':  the writable size is 'size*sizeof(sigrecord)' bytes, but '248' bytes might be written."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "fileLocation": {
+                  "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                },
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 3,
+                  "endLine": 70,
+                  "endColumn": 25
+                }
+              },
+              "fullyQualifiedLogicalName": "main"
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "step": 0,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 15,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 1,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 2,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 3,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 17,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 4,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 18,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 5,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 19,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 6,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 21,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 7,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 8,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 23,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 9,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 24,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 10,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 26,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 11,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 12,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 13,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 14,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 15,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 16,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 17,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 18,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 19,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 45,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 20,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 48,
+                            "startColumn": 34
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 21,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 22,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "'sigdb' is a 0 byte array"
+                        }
+                      },
+                      "kind": "declaration",
+                      "importance": "essential"
+                    },
+                    {
+                      "step": 23,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'sigdb==(((void *)0))' is false)"
+                        }
+                      },
+                      "kind": "branch",
+                      "importance": "important"
+                    },
+                    {
+                      "step": 24,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 25,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<size')"
+                        }
+                      },
+                      "kind": "branch",
+                      "importance": "important"
+                    },
+                    {
+                      "step": 26,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 27,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 59,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 28,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 29,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 63,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume '((c=fgetc(in)))!=((-1))' is false)"
+                        }
+                      },
+                      "kind": "branch",
+                      "importance": "important"
+                    },
+                    {
+                      "step": 30,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 70,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 31,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "'i' may equal 1"
+                        }
+                      },
+                      "kind": "declaration",
+                      "importance": "essential"
+                    },
+                    {
+                      "step": 32,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'i<size')"
+                        }
+                      },
+                      "kind": "branch",
+                      "importance": "important"
+                    },
+                    {
+                      "step": 33,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 34,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 59,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "'i' is an Output from 'fscanf' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.18362.0\\ucrt\\stdio.h:1197)"
+                        }
+                      },
+                      "kind": "declaration",
+                      "importance": "important"
+                    },
+                    {
+                      "step": 35,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "'i' is an Output from 'fscanf' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.18362.0\\ucrt\\stdio.h:1197)"
+                        }
+                      },
+                      "kind": "declaration",
+                      "importance": "important"
+                    },
+                    {
+                      "step": 36,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 63,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume '((c=fgetc(in)))!=((-1))' is false)"
+                        }
+                      },
+                      "kind": "branch",
+                      "importance": "important"
+                    },
+                    {
+                      "step": 37,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 70,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid write to 'sigdb', (outside its writable range)"
+                        }
+                      },
+                      "kind": "usage",
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "6385",
+          "message": {
+            "text": "Reading invalid data from 'sigdb':  the readable size is 'size*sizeof(sigrecord)' bytes, but '248' bytes may be read."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "fileLocation": {
+                  "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                },
+                "region": {
+                  "startLine": 59,
+                  "startColumn": 3,
+                  "endLine": 59,
+                  "endColumn": 30
+                }
+              },
+              "fullyQualifiedLogicalName": "main"
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "step": 0,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 15,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 1,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 2,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 3,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 17,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 4,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 18,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 5,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 19,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 6,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 21,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 7,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 8,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 23,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 9,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 24,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 10,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 26,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 11,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 12,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 13,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 14,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 15,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 16,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 17,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 18,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 19,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 45,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 20,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 48,
+                            "startColumn": 34
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 21,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 22,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "'sigdb' is a 0 byte array"
+                        }
+                      },
+                      "kind": "declaration",
+                      "importance": "essential"
+                    },
+                    {
+                      "step": 23,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'sigdb==(((void *)0))' is false)"
+                        }
+                      },
+                      "kind": "branch",
+                      "importance": "important"
+                    },
+                    {
+                      "step": 24,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 25,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<size')"
+                        }
+                      },
+                      "kind": "branch",
+                      "importance": "important"
+                    },
+                    {
+                      "step": 26,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 27,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 59,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 28,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 29,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 63,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume '((c=fgetc(in)))!=((-1))' is false)"
+                        }
+                      },
+                      "kind": "branch",
+                      "importance": "important"
+                    },
+                    {
+                      "step": 30,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 70,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 31,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "'i' may equal 1"
+                        }
+                      },
+                      "kind": "declaration",
+                      "importance": "essential"
+                    },
+                    {
+                      "step": 32,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'i<size')"
+                        }
+                      },
+                      "kind": "branch",
+                      "importance": "important"
+                    },
+                    {
+                      "step": 33,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "step": 34,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 59,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "'i' is an Output from 'fscanf' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.18362.0\\ucrt\\stdio.h:1197)"
+                        }
+                      },
+                      "kind": "declaration",
+                      "importance": "important"
+                    },
+                    {
+                      "step": 35,
+                      "location": {
+                        "physicalLocation": {
+                          "fileLocation": {
+                            "uri": "file:///C:/Users/rseacord/Documents/1 NCC Training/SCCC/Materials/Exercise 1,3,4/intexer.cpp"
+                          },
+                          "region": {
+                            "startLine": 59,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid read from 'sigdb', (outside its readable range)"
+                        }
+                      },
+                      "kind": "usage",
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "name": "PREfast",
+        "fullName": "PREfast Code Analysis",
+        "version": "14.23.28106.4",
+        "fileVersion": "14.00.28106.04"
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.23.28105\\bin\\HostX86\\x86\\c1.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x007F3180 -il C:\\Users\\rseacord\\AppData\\Local\\Temp\\_CL_123c5171ast -typedil -f intexer.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -ZB64 -D_INTEGRAL_MAX_BITS=64 -Gs -pc \\:/ -D_MSC_VER=1923 -D_MSC_FULL_VER=192328106 -D_MSC_BUILD=4 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -nologo -W 4 -diagnostics:column -Ot -DCODE_ANALYSIS -DWIN32 -D_DEBUG -D_CONSOLE -D_VC80_UPGRADE=0x0710 -D_MBCS -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -clrNoPureCRT -D_DEBUG -D_MT -GS -D_M_FP_PRECISE -FoDebug\\intexer.obj -FdDebug\\vc142.pdb -Gd -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.23.28105\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\Team Tools\\Static Analysis Tools\\Rule Sets\\AllRules.ruleset -analyze:projectdirectory C:\\Users\\rseacord\\Documents\\1 NCC Training\\SCCC\\Materials\\Exercise 1,3,4 -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\Team Tools\\Static Analysis Tools\\\\Rule Sets -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.23.28105\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.23.28105\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\ucrt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Auxiliary\\VS\\UnitTest\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.7.2\\Include\\um"
+        }
+      ],
+      "files": {
+        "file:///c:/users/rseacord/documents/1 ncc training/sccc/materials/exercise 1,3,4/intexer.cpp": {
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ]
+        }
+      },
+      "logicalLocations": {},
+      "resources": {
+        "rules": {}
+      }
+    }
+  ]
+}

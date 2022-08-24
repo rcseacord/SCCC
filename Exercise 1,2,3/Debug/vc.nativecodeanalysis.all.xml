@@ -1,0 +1,650 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+      <FILENAME>intexer.cpp</FILENAME>
+      <LINE>31</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6246</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'i' hides declaration of the same name in outer scope. For additional information, see previous declaration at line '16' of 'c:\users\rseacord\documents\1 ncc training\sccc\materials\exercise 1,3,4\intexer.cpp'.</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>14</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+      <FILENAME>intexer.cpp</FILENAME>
+      <LINE>53</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'fscanf'.</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>14</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+      <FILENAME>intexer.cpp</FILENAME>
+      <LINE>59</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'fscanf'.</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>14</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+      <FILENAME>intexer.cpp</FILENAME>
+      <LINE>60</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'fscanf'.</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>14</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+      <FILENAME>intexer.cpp</FILENAME>
+      <LINE>70</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'sigdb':  the writable size is 'size*sizeof(sigrecord)' bytes, but '248' bytes might be written.</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>14</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>17</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>18</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>23</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>24</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>26</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>31</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>31</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>31</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>31</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>31</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>31</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>53</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>54</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'sigdb' is a 0 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>55</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'sigdb==(((void *)0))' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;size')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>25</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume '((c=fgetc(in)))!=((-1))' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'i' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'i&lt;size')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'i' is an Output from 'fscanf' (declared at c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h:1197)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'i' is an Output from 'fscanf' (declared at c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h:1197)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>25</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume '((c=fgetc(in)))!=((-1))' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>10</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'sigdb', (outside its writable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+      <FILENAME>intexer.cpp</FILENAME>
+      <LINE>59</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'sigdb':  the readable size is 'size*sizeof(sigrecord)' bytes, but '248' bytes may be read.</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>14</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>17</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>18</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>23</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>24</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>26</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>31</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>31</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>31</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>31</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>31</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>31</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>53</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>54</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'sigdb' is a 0 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>55</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'sigdb==(((void *)0))' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;size')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>25</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume '((c=fgetc(in)))!=((-1))' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'i' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'i&lt;size')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'i' is an Output from 'fscanf' (declared at c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h:1197)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\rseacord\Documents\1 NCC Training\SCCC\Materials\Exercise 1,3,4\</FILEPATH>
+        <FILENAME>intexer.cpp</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'sigdb', (outside its readable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT></DEFECTS>
